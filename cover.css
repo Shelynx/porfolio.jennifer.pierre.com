@@ -1,0 +1,326 @@
+body {
+  font-family: 'niveau-grotesk', sans-serif;
+  text-align: center;
+  background-color: #343A40;
+}
+
+.container-fluid {
+  padding: 0 25% 1%;
+  max-width: 62em;
+}
+
+p {
+  color: #E1E8EB;
+}
+
+/** HEADER **/
+.top {
+  margin-bottom: 8rem;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'chennai', sans-serif;
+  font-weight: 400;
+  color: #E1E8EB;
+}
+
+/*** NavBar ***/
+.navbar {
+  padding: 0;
+}
+
+.brand {
+  font-family: 'chennai', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.nav-item {
+  padding: 0;
+  margin-left: 0;
+}
+
+.active {
+  margin-left: 0;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'niveau-grotesk', sans-serif;
+  margin-left: 0;
+}
+
+/*** INDEX***/
+/** MAIN **/
+/* main */
+/*IMAGE*/
+.rounded-circle, .featurette-image {
+  border-style: solid;
+  border-width: 3.25px;
+  padding: 10px 10px;
+  color: #b1a238;
+}
+
+.display-circle {
+  color: #E1E8EB;
+}
+
+.display-circle:hover {
+  color: #b1a238;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.photo {
+  text-align: center;
+  /* align-self: center; */
+  padding: 0 0;
+}
+
+.about-me {
+  text-align: left;
+}
+
+/** BUTTON **/
+.btn {
+  background-color: #E1E8EB;
+  border-color: #E1E8EB ;
+}
+
+.btn-light,
+.btn-light:focus {
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+  line-height: 1.3rem;
+}
+
+.btn-cv {
+  padding-right: 25px;
+  color:  #7952B3;
+}
+
+.btn-port {
+  padding-left: 25px;
+  color:  #7952B3;
+}
+
+/* .btn{
+  letter-spacing: 1px;
+} */
+.btn-light:hover {
+  background-color: #7952B3;
+  border-color: #7952B3;
+  color:#E1E8EB;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+}
+
+.col {
+  padding: 0;
+}
+
+.interest {
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.interest-icon {
+  width: 85px;
+  color: #b1a238;
+}
+
+.interest-box {
+  padding: 0 0;
+}
+
+
+
+
+/* Tooltip container */
+.tip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tip .tiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: rgba(255, 193, 7, 0.2);
+  color: #E1E8EB;
+  text-align: center;
+  padding: 2px 4px;
+  border-radius: 4px;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -90px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tip:active .tiptext {
+  visibility: visible;
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+
+
+
+
+/**SKILLS PAGE**/
+.lead, .about-text {
+  font-weight: 100;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  align-items: center;
+}
+
+.skill-header {
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+.skills-title {
+  font-family: 'niveau-grotesk', sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.skill-icon {
+  width: 60px;
+}
+
+/** PORTFOLIO PAGE **/
+/* TOP */
+.portf-top {
+  /* padding-top: 3%; */
+  padding-bottom: 1%;
+  margin-bottom: 16px;
+}
+
+.portf-text {
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+.portf-header {
+  margin-top: 25px;
+}
+
+.portf-header:hover{
+  color: #b1a238;
+  text-decoration: none;
+}
+
+
+/* MIDDLE */
+.first-row {
+  align-content: center;
+  margin-bottom: 16px;
+}
+
+.website-sample {
+  margin-top: 16px;
+}
+
+/*THUMBNAIL MODDALS*/
+.featurette-image {
+  color: #ffff;
+  border-width: 3px;
+  padding: 5px 5px;
+  opacity: 0.45;
+}
+
+.featurette-image:hover {
+  color: #b1a238;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.featurette-divider {
+  background-color: #ffff;
+}
+
+/*MODALS*/
+/* .closed-btn {
+  font-family: 'niveau-grotesk', sans-serif;
+  color: #00A0C6;
+  font-size: 1.5rem;
+  font-weight: 400;
+} */
+.modal-content {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* @media (min-width: 575px) {
+  .featurette{
+
+  }
+} */
+/* CAROUSEL */
+/***CONTACT PAGE***/
+.contact-display {
+  text-align: left;
+  padding-left: 55px;
+}
+
+.contact {
+  text-align: right;
+}
+
+.contact-text {
+  font-weight: 100;
+  font-size: 2.0rem;
+  line-height: 1.3;
+  padding-top: 42px;
+}
+
+.divider-contact {
+  margin-top: 120px;
+}
+
+
+.contact-icon {
+  color: #E1E8EB;
+  text-decoration: none;
+}
+
+.contact-icon:hover {
+  color: #b1a238;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.icon-info {
+  justify-content: space-between;
+  padding-right: 67px;
+}
+
+.email-info {
+  font-weight: 200;
+  font-size: 1.5rem;
+  padding-top: 50px;
+}
+
+
+
+
+
+/*** FOOTER ***/
+.divider {
+  margin-top: 8rem;
+}
+
+.footer-icon {
+  margin: 5px 25px;
+}
+
+
+.copyright {
+  margin-left: 60%;
+  margin-bottom: 0;
+  text-align: right;
+}

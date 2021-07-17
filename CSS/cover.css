@@ -279,8 +279,9 @@ h1, h2, h3, h4, h5 {
 }
 
 .divider-contact {
-  margin-top: 2rem;
+  margin-top: 120px;
 }
+
 
 .contact-icon {
   color: #E1E8EB;
@@ -300,7 +301,13 @@ h1, h2, h3, h4, h5 {
 
 .email-info {
   font-weight: 200;
+  font-size: 1.5rem;
+  padding-top: 50px;
 }
+
+
+
+
 
 /*** FOOTER ***/
 .divider {
